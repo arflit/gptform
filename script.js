@@ -1,4 +1,4 @@
-const asdf = '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';
+const asdf = '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';
 
 document.getElementById('user-form').addEventListener('submit', async function(event) {
     event.preventDefault();
