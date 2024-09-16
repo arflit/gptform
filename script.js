@@ -1,4 +1,4 @@
-const asdf = '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';
+const asdf = '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';
 
 document.getElementById('user-form').addEventListener('submit', async function(event) {
     event.preventDefault();
@@ -22,7 +22,7 @@ document.getElementById('user-form').addEventListener('submit', async function(e
                 'Authorization': `Bearer ${asdf}`
             },
             body: JSON.stringify({
-                model: 'gpt-3.5-turbo',
+                model: 'gpt-4o-mini',
                 prompt: `
                 The question was: "Allergies (In English)".
                 Instructions: "Впишите, пожалуйста, сюда те продукты, которые необходимо исключить из меню. Список аллергий требует повар, SO PLEASE WRITE IN ENGLISH. Если аллергий нет, запишите 'нет'".
