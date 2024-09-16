@@ -1,3 +1,5 @@
+const asdf = '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';
+
 document.getElementById('user-form').addEventListener('submit', async function(event) {
     event.preventDefault();
 
@@ -17,7 +19,7 @@ document.getElementById('user-form').addEventListener('submit', async function(e
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ВАШ_API_КЛЮЧ'
+                'Authorization': `Bearer ${asdf}`
             },
             body: JSON.stringify({
                 model: 'gpt-3.5-turbo',
